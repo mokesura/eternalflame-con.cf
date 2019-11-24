@@ -38,6 +38,10 @@ description: 宮城県仙台市で開催する、ゲームマスターがプレ�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日開催！　「エタコン」プレイヤーのエタフレネーム＆アピールポイントの一覧です！<br>誰が本物のエタフレなのか、推理してみよう！<a href="https://twitter.com/hashtag/%E3%82%A8%E3%82%BF%E3%82%B3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#エタコン</a> <a href="https://t.co/rSNOO99oxB">pic.twitter.com/rSNOO99oxB</a></p>&mdash; エタコン@3/1(日)開催に向け調整中 (@etafla20) <a href="https://twitter.com/etafla20/status/845423241577447424?ref_src=twsrc%5Etfw">March 24, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## まさか、指名漏れってあったりする？
+
+ゲームマスターから申告いただく対応可能プレイヤー人数をもとに予約定員を設けますので、指名漏れはございません。ご安心ください。
+
 ## どんなゲームが遊べるの？
 
 （本物の）エタフレが遊びたいシステム等を確認し、ゲームマスターにお声掛けをする予定です。  
