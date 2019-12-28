@@ -1,3 +1,9 @@
 lang: ja-JP
 title: エタコン
 description: 宮城県仙台市で開催する、ゲームマスターがプレイヤーをドラフトするTRPGコンベンション
+
+breadcrumbs:
+  home:
+    title: "Home"
+    url: "/index.html"
+  collection_prefix: "Collections:"
