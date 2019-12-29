@@ -5,7 +5,7 @@ title: 2017年のエタコン > ゲーム紹介：Fate/Table Night
 
 このページには、2017年3月に開催された「エタコン」に関する情報が記載されています。
 
-# 2017年のエタコン > ゲーム紹介：Fate/Table Night
+# ゲーム紹介：Fate/Table Night
 
 「Fate/Table Night」のゲームマスター、フェケさんからのゲーム紹介を掲載します。
 <h2>お祝い</h2>
