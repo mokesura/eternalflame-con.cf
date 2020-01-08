@@ -8,7 +8,7 @@ description: 宮城県仙台市で開催する、ゲームマスターがプレ�
 
 ## 開催概要を教えて！
 
-下記をご参照ください。
+下記をご覧ください。
 
 日時：2020年3月1日（日）　10:00～19:00  
 場所：<a href="http://www.hm-sendai.jp/siminc/sisetu/taihaku06.html" target="_blank">八木山市民センター</a>　和室(1)  
