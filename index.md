@@ -79,8 +79,9 @@ description: 宮城県仙台市で開催する、ゲームマスターがプレ�
 また、エタフレには「[暇な人、好きなものをひたすら語りたい人に100の質問](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCMfFT3BiP50CZcUm-baJu_wCpUMSJtDTUD7b-aCDPWehCyK25OM_71TsYwvBJbr0rI3bf3k3GUbK1/pubhtml?gid=1900505261&single=true)」に答えていただきました。
 当日遊べるゲームには、この回答に記載された「好きなもの」を取り入れていただく予定ですので、ぜひご覧ください。
 
-<span id="party"></span>
+<div id="party">
 ## 夕食会って？
+</div>
 
 閉会式終了後、コンベンション会場にオードブルを持ち込み、エタフレの誕生日を祝う夕食会を実施します。
 
