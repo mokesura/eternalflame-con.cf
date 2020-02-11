@@ -53,7 +53,7 @@ description: 宮城県仙台市で開催する、ゲームマスターがプレ�
 
 また、参考までに、前回どんなエタフレが参加したのかもご覧ください。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日開催！　「エタコン」プレイヤーのエタフレネーム＆アピールポイントの一覧です！<br>誰が本物のエタフレなのか、推理してみよう！<a href="https://twitter.com/hashtag/%E3%82%A8%E3%82%BF%E3%82%B3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#エタコン</a> <a href="https://t.co/rSNOO99oxB">pic.twitter.com/rSNOO99oxB</a></p>&mdash; エタコン@3/1(日)開催 (@etafla20) <a href="https://twitter.com/etafla20/status/845423241577447424?ref_src=twsrc%5Etfw">March 24, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日開催！　「エタコン」プレイヤーのエタフレネーム＆アピールポイントの一覧です！<br>誰が本物のエタフレなのか、推理してみよう！<a href="https://twitter.com/hashtag/%E3%82%A8%E3%82%BF%E3%82%B3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#エタコン</a> <a href="https://t.co/rSNOO99oxB">pic.twitter.com/rSNOO99oxB</a></p>&mdash; エタコン@3/1(日)八木山市民センター (@etafla20) <a href="https://twitter.com/etafla20/status/845423241577447424?ref_src=twsrc%5Etfw">March 24, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## まさか、指名漏れってあったりする？
 
