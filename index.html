@@ -16,10 +16,44 @@
 <meta property="og:url" content="https://eternalflame-con.cf/" />
 <meta property="og:site_name" content="エタコン" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"トップページ","url":"https://eternalflame-con.cf/","name":"エタコン","description":"宮城県仙台市で開催する、ゲームマスターがプレイヤーをドラフトするTRPGコンベンション","@context":"https://schema.org"}</script>
+{"@type":"WebSite","url":"https://eternalflame-con.cf/","name":"エタコン","headline":"トップページ","description":"宮城県仙台市で開催する、ゲームマスターがプレイヤーをドラフトするTRPGコンベンション","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script>
+$(function() {
+	var url = 'https://spreadsheets.google.com/feeds/cells/1RIYCm7Ob5qlBPGw_UWm1blzpx5dvhfFbwr3TDCehUR4/od6/public/values?alt=json';
+	var target = $('#targetdiv');
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=2fd7c4542c8991616a1c0c445abf0a9a613e459d">
+	/***
+	 * 改行関数
+	 */
+	function nl2br(str) {
+		return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + '<br>' + '$2');
+	}
+
+	$.getJSON(url, function(data) {
+		var list = data.feed.entry;
+		var list_length = list.length;
+		var cnt = 1; // 行のカラム数
+		var content = '';
+
+		for (var i = 0; i < Math.ceil(list_length / cnt); i++) {
+			var j = i * cnt;
+			var Arr = list.slice(j, j + cnt);
+
+			// テキストを取得
+			content += '<li>' + Arr[0].content.$t + '</li>';
+		}
+
+		target.append(content);
+	});
+})
+</script>
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=9dffdd876fc120725cd7bdd406662e40ff233670">
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -27,10 +61,10 @@
       <h1><a href="https://eternalflame-con.cf/">エタコン</a></h1>
       
 
-      <p>ゲームマスターがプレイヤーをドラフトするTRPGコンベンション「エタコン」は、2020年3月1日（日）に宮城県仙台市・八木山市民センターで開催予定です。
-参加方法等は別途お知らせいたします。楽しみにお待ちください。</p>
+      <p>ゲームマスターがプレイヤーをドラフトするTRPGコンベンション「エタコン」は、2020年3月1日（日）に宮城県仙台市・八木山市民センターで開催予定です。</p>
 
-<div id="targetdiv"></div>
+<p>現在、プレイヤー参加者を募集中です。<br />
+プレイヤーとして参加をご希望の方は、開催概要等をお読みいただきまして、ページ下部にてリンクされているのプレイヤー予約フォームよりご予約をお願いします（先着順）。</p>
 
 <h2 id="開催概要を教えて">開催概要を教えて！</h2>
 
@@ -42,7 +76,7 @@
 参加費：運営費を参加者で頭割り（ゲームマスター参加：無料／プレイヤー参加：学生200円、社会人500円を予定）</p>
 
 <ul>
-  <li>コンベンション終了後、開場にオードブルを持ち込んで夕食会を開催します（時間は18:50～20:30を予定。任意参加、参加費別途）。詳細は後日お知らせします。</li>
+  <li>コンベンション終了後、開場にオードブルを持ち込んで夕食会を開催します（時間は18:50～20:30を予定。任意参加、参加費別途）。詳細はこのWebページ内の<a href="#party">夕食会って？</a>をご覧ください。</li>
   <li>会場近辺でお昼ご飯を買える場所が少ないため、仕出し弁当の取り寄せを検討しています。</li>
 </ul>
 
@@ -74,9 +108,17 @@
 <p>ゲームマスターは、プレイヤー予約時に記載された「エタフレネーム」と「ゲームマスターへのアピールポイント」だけを見てプレイヤーをドラフトします。<br />
 「あなたが誰なのか」は誰にも分かりません。あなた自体が選抜されるわけではありませんので、ドラフトのワクワク感だけを味わいに来てください。</p>
 
-<p>参考までに、前回どんなエタフレが参加したのかご覧いただければ幸いです。</p>
+<h2 id="どんなエタフレが参加するの">どんなエタフレが参加するの？</h2>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日開催！　「エタコン」プレイヤーのエタフレネーム＆アピールポイントの一覧です！<br />誰が本物のエタフレなのか、推理してみよう！<a href="https://twitter.com/hashtag/%E3%82%A8%E3%82%BF%E3%82%B3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#エタコン</a> <a href="https://t.co/rSNOO99oxB">pic.twitter.com/rSNOO99oxB</a></p>&mdash; エタコン@3/1(日)開催 (@etafla20) <a href="https://twitter.com/etafla20/status/845423241577447424?ref_src=twsrc%5Etfw">March 24, 2017</a></blockquote>
+<p>現在、以下のエタフレからPL予約いただいています。<br>
+（本物の）エタフレが「面白い！」と思ったエタフレネームの方には、ベストオブエタフレ賞が送られます。ぜひ、面白いエタフレネームでご応募ください。</p>
+
+<ul id="targetdiv">
+</ul>
+
+<p>参考までに、前回どんなエタフレが参加したのかもご覧いただければ幸いです。</p>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日開催！　「エタコン」プレイヤーのエタフレネーム＆アピールポイントの一覧です！<br />誰が本物のエタフレなのか、推理してみよう！<a href="https://twitter.com/hashtag/%E3%82%A8%E3%82%BF%E3%82%B3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#エタコン</a> <a href="https://t.co/rSNOO99oxB">pic.twitter.com/rSNOO99oxB</a></p>&mdash; エタコン@3/1(日)八木山市民センター (@etafla20) <a href="https://twitter.com/etafla20/status/845423241577447424?ref_src=twsrc%5Etfw">March 24, 2017</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2 id="まさか指名漏れってあったりする">まさか、指名漏れってあったりする？</h2>
@@ -85,14 +127,57 @@
 
 <h2 id="どんなゲームが遊べるの">どんなゲームが遊べるの？</h2>
 
-<p>（本物の）エタフレが遊びたいシステム等を確認し、ゲームマスターにお声掛けをする予定です。<br />
-ゲーム紹介文等はこのWebサイトに掲載しますが、コンベンションの性質上、遊ぶゲームをプレイヤーが選ぶことはできませんのでご了承ください。<br />
+<p>※ゲームマスター名は敬称略。</p>
+
+<ul>
+  <li>シノビガミ（ゲームマスター：フェケ）</li>
+  <li>大石油王RPG（ゲームマスター：ムハメド・アムーディ・テットムー・アムラムーヴィッチ）</li>
+  <li>ストラトシャウト（ゲームマスター：羊毛マトン）</li>
+  <li>インセイン（ゲームマスター：さぼりっこ）<br />
+※シナリオ集「みにとまと」のシナリオより</li>
+  <li>新クトゥルフ神話TRPG（ゲームマスター：りょう。）</li>
+  <li>予備卓）ビギニングアイドル（ゲームマスター：ウェイトリ）</li>
+</ul>
+
+<p>（本物の）エタフレに遊びたいシステム等を確認し、スタッフ側でゲームマスターを決めさせていただきました。</p>
+
+<p>ゲーム紹介文等はこのWebサイトに掲載しますが、コンベンションの性質上、遊ぶゲームをプレイヤーが選ぶことはできませんのでご了承ください。<br />
 （「ゲームマスターへのアピールポイント」で遊びたいゲームをアピールすることはできます）</p>
+
+<p>また、エタフレには「<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSCMfFT3BiP50CZcUm-baJu_wCpUMSJtDTUD7b-aCDPWehCyK25OM_71TsYwvBJbr0rI3bf3k3GUbK1/pubhtml?gid=1900505261&amp;single=true">暇な人、好きなものをひたすら語りたい人に100の質問</a>」に答えていただきました。
+当日遊べるゲームには、この回答に記載された「好きなもの」を取り入れていただく予定ですので、ぜひご覧ください。</p>
+
+<h2 id="party">夕食会って？</h2>
+
+<p>閉会式終了後、コンベンション会場にオードブルを持ち込み、エタフレの誕生日を祝う夕食会を実施します。</p>
+
+<p>夕食会への参加を希望する場合は、PL予約時にお申し込みいただくか、メール（eternalflamecon☆gmail.com／☆を@に変換）または<a href="https://twitter.com/etafla20">Twitter</a>までご連絡ください。<br />
+オードブル予約の都合上、2月25日（火）までにご連絡ください。</p>
+
+<p>時間：コンベンション終了後（18:50～20:30予定）<br />
+※途中退出OKです。21:00までには後片付けも終えて完全撤収します。</p>
+
+<p>会費：1,500円（紙コップ、紙皿、割り箸、おしぼり、ソフトドリンク代込）</p>
+
+<ul>
+  <li>会費は当日の来場時、受付にて頂戴いたします。</li>
+  <li>アルコールドリンクの持ち込みもOKですが、「乾杯程度」で。飲酒運転と未成年の飲酒、飲酒強要、セッション中の飲酒はダメ、ゼッタイ。</li>
+</ul>
 
 <h2 id="trpgとかコンベンションとか初めてだけど参加していい">TRPGとかコンベンションとか初めてだけど、参加していい？</h2>
 
 <p>このページをここまで読み進めてきたあなたなら、大丈夫。<br />
 「なんか変なことやってるなー」って思うかもしれませんが、ドラフトが終われば普通にTRPGを遊ぶことができるはずです。</p>
+
+<h2 id="わかったエタコンに参加したい">わかった、エタコンに参加したい！</h2>
+
+<p>ありがとうございます。<br />
+お手数ですが、下記リンク先のプレイヤー予約フォームより、ご予約をお願いします。
+先着順となっておりますので、できればお早めにお申し込みいただけると嬉しいです。</p>
+
+<ul>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSepv98Pm_4D7oZw7dqn-bpOYWLJbLO8fczsd_uOTGvoGt7NJA/viewform">2020年3月1日（日）エタコン　プレイヤー参加者用事前予約フォーム</a></li>
+</ul>
 
 <h2 id="前回のゲーム紹介って見れる">前回のゲーム紹介って見れる？</h2>
 
